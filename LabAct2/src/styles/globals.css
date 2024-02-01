@@ -1,0 +1,86 @@
+/* Font Faces */
+@font-face {
+  src: url("../../gravity/Gravity-LightItalic.otf");
+  font-family: Gravity_Light_Italic;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-Regular.otf");
+  font-family: Gravity_Regular;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-Italic.otf");
+  font-family: Gravity_Italic;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-Light.otf");
+  font-family: Gravity;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-BoldItalic.otf");
+  font-family: Gravity_Bold_Italic;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-Bold.otf");
+  font-family: Gravity_Bold;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-Book.otf");
+  font-family: Gravity_Book;
+}
+
+@font-face {
+  src: url("../../gravity/Gravity-BookItalic.otf");
+  font-family: Gravity_Book_Italic;
+}
+/* Color Variables */
+:root {
+  /* Background Colors */
+  --white: #ffffff;
+  --grey: #dfdfdf;
+  --lightgrey: #e6e6e6;
+
+  /* Text Colors */
+  --black: #000000;
+  --darkgrey: #343434;
+  --davygrey: #545454;
+  --warmgrey: #8e8b82;
+  --seashell: #f6f3ec;
+  --dirtygrey: #414141;
+
+  /* Categories */
+  --jetblack: #343434;
+  --highlightyellow: #f3e866;
+  --ascentpink: #e28886;
+  --spadream: #79c6eb;
+  --camelgreen: #6cb094;
+
+  /* Memo Pad Headers */
+  --twinkinglights: #fffac2;
+  --tearose: #ebbab9;
+  --paleblue: #aed4e6;
+  --palegreen: #9edfc4;
+  /* Font Sizes */
+  --h2: 46.44px;
+  --h3: 39.06px;
+  --h4: 29px;
+  --h5: 23.78px;
+  --p: 19.02px;
+  --large: 25px;
+  --medium: 20px;
+  --normal: 16px;
+  --small: 12px;
+}
+
+* {
+  font-family: "Gravity_Regular";
+}
+
+.d-none {
+  display: none !important;
+}

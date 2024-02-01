@@ -1,0 +1,121 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+
+  /* max-width: 1350px; */
+}
+
+.card {
+  position: relative;
+  background-color: var(--seashell);
+  /* width: 295px; */
+  width: 295px;
+  height: 285px;
+  margin-left: 20px;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  padding: 0 5px;
+}
+
+.card__header__title,
+.card__header__number {
+  margin: 0;
+  padding: 0;
+  font-size: var(--h4);
+  font-family: "Gravity_Bold";
+}
+.card__header__number {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.layout_card_column {
+  display: flex;
+  flex-direction: column;
+}
+.layout_card {
+  display: flex;
+  flex-direction: row !important;
+  width: 250px;
+  justify-content: space-between !important;
+  margin-left: 10px;
+}
+
+.memo {
+  background-color: var(--seashell);
+}
+
+.friendship-memo {
+  background-color: var(--twinkinglights);
+  width: 295px;
+}
+
+.love-memo {
+  background-color: var(--tearose);
+  width: 295px;
+}
+
+.sentimental-memo {
+  background-color: var(--paleblue);
+  width: 295px;
+}
+
+.misc-memo {
+  background-color: var(--palegreen);
+  width: 295px;
+}
+
+.card__body {
+  padding: 0 20px;
+}
+
+.body__username {
+  margin: 13px 0;
+  font-family: "Gravity_Bold";
+}
+
+.body__message {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: var(--normal);
+  font-family: "Gravity_Book";
+  white-space: pre-wrap;
+}
+
+.read-more {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  color: var(--dirtygrey);
+  font-family: "Gravity_Regular";
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row !important;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.fa-chevron-right {
+  font-size: var(--small);
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1054px) {
+  .card-container {
+    justify-content: space-evenly;
+  }
+}
