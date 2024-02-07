@@ -8,7 +8,11 @@ function NavbarDown() {
         </a>
       </div>
       <div className="desktop-nav-middle">
-        <a href="#" className="desktop-nav-middle__link">
+        <a
+          href="#"
+          className="desktop-nav-middle__link"
+          style={{ borderBottom: "4px solid var(--darkgrey)" }}
+        >
           Archive
         </a>
         <a href="#" className="desktop-nav-middle__link">

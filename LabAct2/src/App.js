@@ -5,6 +5,8 @@ import Navbar from "./components/navbar";
 import Search from "./components/search";
 import Layout from "./components/layout_cards";
 import NavbarDown from "./components/navbar_down";
+import Featured from "./components/featured";
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +15,7 @@ function App() {
 
       <h1 class="Title_position">Featured Entries</h1>
 
-      <Layout />
+      <Featured />
       <h1 class="Title_position">Compiled Posts by Everyone</h1>
 
       <Layout />

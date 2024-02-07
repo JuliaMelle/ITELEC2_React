@@ -1,17 +1,17 @@
 import Card from "./card";
 import "../styles/layout_card.css";
 import { draftData } from "../data";
-function Layout() {
+function Featured() {
   return (
     <div className="card-container">
-      {draftData.map((card) => (
-        <Card draftObj={card} />
-      ))}
-      {/* {draftData.slice(0, 3).map((card) => (
+      {/* {draftData.map((card) => (
         <Card draftObj={card} />
       ))} */}
+      {draftData.slice(0, 3).map((card) => (
+        <Card draftObj={card} />
+      ))}
     </div>
   );
 }
 
-export default Layout;
+export default Featured;
