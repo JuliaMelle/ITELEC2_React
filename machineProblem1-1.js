@@ -227,18 +227,16 @@ const updatedDiscounts = data.map((motorcycle) => ({
 }));
 console.log(updatedDiscounts);
 // 11.
-
 // function add(a, b) {
 //   return a + b;
 // }
 const add = (a, b) => a + b;
-
+const result = add(5, 3);
+console.log(result);
 // 12.
 // function greet(name) {
 //   return "Hello, " + name + "!";
 // }
-const result = add(5, 3);
-console.log(result);
 
 const greet = (name) => `Hello, ${name}!`;
 
